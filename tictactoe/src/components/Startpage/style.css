@@ -1,5 +1,5 @@
 .container{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     /* display: flex; */
     /* flex-direction: row; */
     border: 1px solid black;
@@ -8,7 +8,7 @@
 .btn-pos{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-direction: column;
 }
 

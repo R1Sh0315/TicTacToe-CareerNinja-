@@ -1,4 +1,4 @@
-// import Logo from './logo/index';
+import Logo from '../icons/logoXO';
 import WithAI from "./buttons/withAi";
 import WithFriend from "./buttons/withFriends"
 import SetBtn from './buttons/settingbtn';
@@ -8,7 +8,7 @@ function startPage(){
     return (
     <div className="container">
         <div>
-            {/* <Logo /> */}
+            <Logo />
         </div>
         <div style={{color:'#4d4d4d'}}>
             <p>

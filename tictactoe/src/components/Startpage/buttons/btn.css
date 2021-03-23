@@ -13,8 +13,10 @@
     background: linear-gradient(90deg, rgba(110,166,228,1) 0%, rgba(0,100,208,1) 50%, rgba(110,166,228,1) 100%);
 }
 
-set-btn{
+.set-btn{
     margin: 1em;
+    height: 2em;
+    width: 2em;
     border-radius: 25px;
     border: none;
     box-shadow: 2px 4px 7px #888888;
