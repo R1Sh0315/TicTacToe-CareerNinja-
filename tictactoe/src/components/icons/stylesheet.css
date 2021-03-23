@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 .iconX{
-    font-size: 200px;
+    font-size: 150px;
     font-family: 'Quicksand', sans-serif;
     /* background-color: aqua; */
     /* color: orange;    */
@@ -11,11 +11,11 @@
 }
 
 .iconO{
-    font-size: 200px;
+    font-size: 150px;
     font-family: 'Quicksand', sans-serif;
     /* background-color: aqua; */
     /* color: orange;    */
-    background: linear-gradient(45deg, rgba(255,117,18,1) 0%, rgba(246,171,64,1) 68%, rgba(255,224,178,1) 100%); -webkit-background-clip: text;
+    background: linear-gradient(45deg, rgba(255,107,0,1) 0%, rgba(246,171,64,1) 67%, rgba(255,224,178,1) 100%); -webkit-background-clip: text;
     color: transparent;
     font-weight:bolder;
     /* border:1px solid black; */

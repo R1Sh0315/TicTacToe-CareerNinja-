@@ -1,6 +1,6 @@
 import './App.css';
 import StartPage from './components/Startpage/index';
-import Selection from './components/Selection/index';
+import Selection from './components/Selection/Select';
 import Game from './components/Game/index';
 // import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
