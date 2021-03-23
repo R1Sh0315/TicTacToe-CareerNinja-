@@ -21,3 +21,22 @@
     border: none;
     box-shadow: 2px 4px 7px #888888;
 }
+
+.continue-btn{
+    margin: 1em;
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 4px 7px #888888;
+    color: #4d4d4d;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.continue-btn:hover{
+    color: white;
+    background: linear-gradient(90deg, rgba(110,166,228,1) 0%, rgba(0,100,208,1) 50%, rgba(110,166,228,1) 100%);
+}

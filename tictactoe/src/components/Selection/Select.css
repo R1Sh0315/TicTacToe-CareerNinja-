@@ -1,12 +1,14 @@
-.container{
+.continer{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    width: 300px;
+    margin: auto;
+    /* padding-top: ; */
 }
 
 .heading{
     color:#4d4d4d; 
-    border:1px solid black;
+    /* border:1px solid black; */
     justify-content: center;
     display: flex;
     align-items: flex-end;
@@ -16,13 +18,25 @@
 }
 
 .option-container{
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
 .icons{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     width: 50%;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
+
+
+.continue-btn-container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
 }

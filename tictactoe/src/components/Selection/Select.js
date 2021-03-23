@@ -1,6 +1,7 @@
 import "./Select.css";
 import IconO from "../icons/iconO";
 import IconX from "../icons/iconX";
+import Continue from "../Startpage/buttons/continuebtn"
 
 function Selection(){
     return (
@@ -10,11 +11,16 @@ function Selection(){
         </div>
         <div className="option-container">
             <div className="icons">
-                < IconX />
+                <input className="icon-left" type="radio" id="contactChoice1" name="contact" value="email" />
+                <label for="contactChoice1">< IconX /></label>
             </div>
             <div className="icons">
-                < IconO />
+                <input className="icon-right" type="radio" id="contactChoice1" name="contact" value="email" />
+                <label for="contactChoice1">< IconO /></label>
             </div>
+        </div>
+        <div className="continue-btn-container">
+            <Continue />
         </div>
     </div>
     )
