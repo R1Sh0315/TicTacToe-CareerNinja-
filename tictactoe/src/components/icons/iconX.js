@@ -1,6 +1,6 @@
 import './stylesheet.css';
 export default function iconX(){
-    return(<div >
-        <span className="iconX">X</span>
+    return(<div className="iconX" >
+        X
     </div>)
 }
