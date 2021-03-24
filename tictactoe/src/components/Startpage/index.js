@@ -18,8 +18,8 @@ function startPage(){
             </p>
         </div>
         <div className="btn-pos">
-            < WithFriend />
             < WithAI />
+            < WithFriend />
         </div>
         <div>
             <SetBtn />
