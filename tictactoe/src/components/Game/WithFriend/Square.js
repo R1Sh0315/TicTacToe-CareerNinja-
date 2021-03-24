@@ -1,4 +1,5 @@
 import React from "react";
+import '../style.css';
 
 const Square = ({ value, onClick }) => {
   const style = value ? `squares ${value}` : `squares`;

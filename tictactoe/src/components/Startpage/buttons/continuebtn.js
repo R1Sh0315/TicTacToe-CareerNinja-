@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 function Continue(){
     let history=useHistory();
     const redirect=()=>{
-        history.push('/Game')
+        history.push('/withfriends')
     }
 
     return(<div>
