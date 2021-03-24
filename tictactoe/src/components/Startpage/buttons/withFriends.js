@@ -1,10 +1,11 @@
 import "./btn.css";
 import { useHistory } from 'react-router-dom';
+
 export default function WithFriend(){
     let history=useHistory();
 
     const redirect=()=>{
-        history.push('/Select')
+        history.push('/SelectionForFi')
     }
 
     return(<div>

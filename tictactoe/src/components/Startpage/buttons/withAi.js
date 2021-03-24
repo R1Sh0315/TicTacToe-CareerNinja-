@@ -4,9 +4,10 @@ export default function WithAI(){
     let history=useHistory();
 
     const redirect=()=>{
-        history.push('/Select')
+        history.push('/SelectionForAi')
     }
-    return(<div>
+    return(
+    <div>
         <button onClick={redirect} className="btn"><b>With AI</b></button>
     </div>)
 }

@@ -1,9 +1,9 @@
 import "./Select.css";
 import IconO from "../icons/iconO";
 import IconX from "../icons/iconX";
-import Continue from "../Startpage/buttons/continuebtn"
+import WithAiBtn from "../Startpage/buttons/withAiBtn";
 
-function Selection(){
+function SelectionForAi(){
     return (
     <div className="continer">
         <div className="heading">
@@ -20,10 +20,10 @@ function Selection(){
             </div>
         </div>
         <div className="continue-btn-container">
-            <Continue />
+            <WithAiBtn />
         </div>
     </div>
     )
 }
 
-export default Selection;
+export default SelectionForAi;

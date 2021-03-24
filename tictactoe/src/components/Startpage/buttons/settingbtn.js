@@ -4,7 +4,7 @@ import "./btn.css";
 export default function SettingBtn(){
     return(<div>
         <button className="set-btn">
-            <AiOutlineSetting />
+            <AiOutlineSetting className="set-col" />
         </button>
     </div>)
 }
