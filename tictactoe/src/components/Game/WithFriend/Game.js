@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { calculateWinner } from "../Helper";
 import Board from "./Board";
+import SetBtn from "./SetBtn";
 import '../style.css';
 
 const Game = () => {
@@ -39,7 +40,7 @@ const Game = () => {
   //   });
 
   return (
-    <>
+    <div className="container">
 
       <h3>{winner ? "Winner: " + winner : "Next Player: " + xO}</h3>
      
@@ -48,7 +49,8 @@ const Game = () => {
         <Board squares={history[stepNumber]} onClick={handleClick} />
         </div>
       </div>
-    </>
+      <SetBtn />
+    </div>
   );
 };
 

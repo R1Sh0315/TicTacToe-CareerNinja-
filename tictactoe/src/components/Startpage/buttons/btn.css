@@ -40,3 +40,7 @@
     color: white;
     background: linear-gradient(90deg, rgba(110,166,228,1) 0%, rgba(0,100,208,1) 50%, rgba(110,166,228,1) 100%);
 }
+
+.set-col{
+    color: red;
+}
