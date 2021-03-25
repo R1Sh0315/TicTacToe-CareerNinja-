@@ -40,8 +40,8 @@
 /* @-webkit-keyframes border-blink{50%{border-color:#000}}@-moz-keyframes border-blink{50%{border-color:#000}}@keyframes border-blink{50%{border-color:#000}}@-webkit-keyframes blink{50%{visibility:hidden}}@-moz-keyframes blink{50%{visibility:hidden}}@keyframes blink{50%{visibility:hidden}}@-webkit-keyframes appear{from{-webkit-transform:scale(.3);transform:scale(.3)}to{-webkit-transform:scale(1);transform:scale(1)}}@-moz-keyframes appear{from{-moz-transform:scale(.3);transform:scale(.3)}to{-moz-transform:scale(1);transform:scale(1)}}@keyframes appear{from{transform:scale(.3)}to{transform:scale(1)}} */
 .square{
     /* float:right ; */
-    width:6em;
-    height: 6em;
+    /*width:6em;*/
+    /*height: 6em;*/
     border-width:3px;
     border-color:rgb(172, 171, 171);
     -webkit-transition:background-color .1s;
