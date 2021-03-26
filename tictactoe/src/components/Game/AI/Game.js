@@ -121,6 +121,20 @@ class withAi extends React.Component {
     return (
       <div className="App">
         <div className="game">
+        {/* <div class="scores p1">
+          <p class="player1"><span class="p1">Player</span><span class="p2">Player 1</span> (<span class="x"></span>)<span class="score">{this.state.playerWin}</span></p>
+          <p class="ties">Tie<span class="score">{this.state.tieGames}</span></p>
+          <p class="player2"><span class="p1">Computer</span><span class="p2">Player 2</span> (<span class="o"></span>)<span class="score">{this.state.computerWin}</span></p>
+        </div> */}
+        
+        <div>
+          <p className="score-board"> 
+            <p className="players" >Player</p> 
+            <p className="player-score" >{this.state.playerWin} - {this.state.computerWin}</p> 
+            <p className="players" >AI </p>
+          </p>
+        </div>
+        
           <div className="board">
             <div onClick={() => this.handleClick(1)} className="square top left" ><div ref="block1"></div></div>
             <div onClick={() => this.handleClick(2)} className="square top" ><div ref="block2"></div></div>
@@ -132,11 +146,6 @@ class withAi extends React.Component {
             <div onClick={() => this.handleClick(8)} className="square bottom" ><div ref="block8"></div></div>
             <div onClick={() => this.handleClick(9)} className="square bottom right" ><div ref="block9"></div></div>
           </div>
-        </div>
-        <div class="scores p1">
-          <p class="player1"><span class="p1">Player</span><span class="p2">Player 1</span> (<span class="x"></span>)<span class="score">{this.state.playerWin}</span></p>
-          <p class="ties">Tie<span class="score">{this.state.tieGames}</span></p>
-          <p class="player2"><span class="p1">Computer</span><span class="p2">Player 2</span> (<span class="o"></span>)<span class="score">{this.state.computerWin}</span></p>
         </div>
       </div>
     );
